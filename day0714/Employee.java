@@ -3,7 +3,7 @@ package day0714;
 import java.io.*;
 //员工类
 public class Employee {
-    String name;
+    public String name;
     int age;
     String designation;
     double salary;
@@ -11,6 +11,11 @@ public class Employee {
     public Employee(String name){
         this.name = name;
     }
+
+    public Employee() {
+
+    }
+
     //设置age的值
     public void empAge(int empAge){
         age = empAge;
